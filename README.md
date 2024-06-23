@@ -33,7 +33,7 @@ conda activate face_recognition
 
 
 ## Usage
-#### 1. Face Dataset Creation : Captures images of faces to create a dataset.
+#### 1. Face Dataset Creation 
 Run the following script and follow the prompts to capture face images:
 
 ```
@@ -44,7 +44,7 @@ This script will:
 * Create a directory face_dataset/.
 * Capture 50 images of the user’s face from the webcam and store them in a subdirectory named after the user.
   
-#### 2. Extract Face Embeddings : Extracts face embeddings from the captured images.
+#### 2. Extract Face Embeddings 
 
 Run the following script to extract face embeddings:
 
@@ -56,7 +56,7 @@ This script will:
 * Process each image in the face_dataset/ directory.
 * Extract the face embeddings and save them in output/embeddings.pickle.
 
-#### 3. Train Face Recognition Model : Trains a face recognition model using the extracted face embeddings.
+#### 3. Train Face Recognition Model 
 
 Run the following script to train the model:
 
@@ -70,7 +70,7 @@ This script will:
 * Train a Support Vector Machine (SVM) model for face recognition.
 * Save the trained model and label encoder in output/recognizer.pickle and output/le.pickle respectively.
   
-#### 4. Real-time Face Recognition : Performs real-time face recognition using the webcam.
+#### 4. Real-time Face Recognition 
 
 Run the following script to start real-time face recognition:
 
@@ -92,7 +92,7 @@ conda activate face_recognition
 ```
 
 # Explanation of Files
-[1_face_dataset.py]() : Captures face images using the webcam and stores them in the face_dataset/ directory.
+[1_face_dataset.py](https://github.com/titan-exasaur/FACE-RECOGNITION/blob/main/1_face_dataset.py) : Captures face images using the webcam and stores them in the face_dataset/ directory.
 
 2_extract_face.py : Extracts face embeddings from the captured images using a pre-trained face detector and face embedding model. Saves the embeddings and labels in output/embeddings.pickle.
 
