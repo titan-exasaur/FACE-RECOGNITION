@@ -1,5 +1,7 @@
 
 # Face Recognition System
+![image](https://github.com/titan-exasaur/FACE-RECOGNITION/assets/144261872/cfa8cfed-0fe6-4069-a43e-41a7a61007b9)
+
 This repository contains a complete face recognition system using OpenCV and deep learning. The system captures face images, extracts face embeddings, trains a face recognition model, and performs real-time face recognition.
 
 # Table of Contents
