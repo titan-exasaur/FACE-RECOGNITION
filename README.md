@@ -94,13 +94,13 @@ conda activate face_recognition
 # Explanation of Files
 [1_face_dataset.py](https://github.com/titan-exasaur/FACE-RECOGNITION/blob/main/1_face_dataset.py) : Captures face images using the webcam and stores them in the face_dataset/ directory.
 
-2_extract_face.py : Extracts face embeddings from the captured images using a pre-trained face detector and face embedding model. Saves the embeddings and labels in output/embeddings.pickle.
+[2_extract_face.py](https://github.com/titan-exasaur/FACE-RECOGNITION/blob/main/2_extract_face.py) : Extracts face embeddings from the captured images using a pre-trained face detector and face embedding model. Saves the embeddings and labels in output/embeddings.pickle.
 
-3_train_face_model.py : Trains a face recognition model using the extracted face embeddings. Saves the trained model and label encoder in output/recognizer.pickle and output/le.pickle.
+[3_train_face_model.py](https://github.com/titan-exasaur/FACE-RECOGNITION/blob/main/3_train_face_model.py) : Trains a face recognition model using the extracted face embeddings. Saves the trained model and label encoder in output/recognizer.pickle and output/le.pickle.
 
-4_inference.py : Performs real-time face recognition using the webcam. Loads the trained face recognition model and label encoder to recognize faces in the video stream.
+[4_inference.py](https://github.com/titan-exasaur/FACE-RECOGNITION/blob/main/4_inference.py) : Performs real-time face recognition using the webcam. Loads the trained face recognition model and label encoder to recognize faces in the video stream.
 
-environment.yaml : Contains the dependencies required to run the scripts. Use this file to set up the conda environment.
+[environment.yaml](https://github.com/titan-exasaur/FACE-RECOGNITION/blob/main/environment.yaml) : Contains the dependencies required to run the scripts. Use this file to set up the conda environment.
 
 
 By following the above steps, you will have a fully functional face recognition system capable of capturing, training, and recognizing faces in real-time.
